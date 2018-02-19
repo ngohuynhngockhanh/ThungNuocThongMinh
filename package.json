@@ -1,0 +1,17 @@
+{
+  "name": "inut-socket-client-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "locutus": "^2.0.9",
+    "lodash": "^4.17.5",
+    "log-timestamp": "^0.1.2",
+    "socket.io-client": "^2.0.4"
+  }
+}
