@@ -1,9 +1,9 @@
 
-# iNut-Socket.IO-client-demo
+# ThungNuocThongMinh
 
 ## Cách sử dụng
 
-Đây là project mẫu để các bạn có thể lắng nghe dữ liệu từ thiết bị iNut Platform. Cứ có data mới thì các bạn sẽ lắng nghe được. Rất dễ dàng!
+Đây là project Thùng nước thông minh mẫu để các bạn có thể lắng nghe dữ liệu từ thiết bị iNut Platform. Cứ có data mới thì các bạn sẽ lắng nghe được. Rất dễ dàng!
 
 Khi có sự kiện yêu cầu đăng nhập, bạn hãy gửi lệnh (emit) "register_node" với thông tin là đoạn token, uuid, node_id được lấy từ app iNut.
 
