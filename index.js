@@ -7,6 +7,7 @@ const socketServerURL = 'http://socket.mysmarthome.vn'
 var socket = socket_client(socketServerURL); 
 
 socket.on('connect', function() {
+	console.log("Connected to server")
 })
 
 socket.on("please_login", function() {
