@@ -9,7 +9,7 @@ Khi có sự kiện yêu cầu đăng nhập, bạn hãy gửi lệnh (emit) "re
 
 [![Xem hướng dẫn](https://platform.mysmarthome.vn/sites/default/files/pictures/hung_dn_ly_m_qrcode_danh_cho_lp_trnh_vien_trong_inut_platform_-_youtube_-_google_chrome.jpg)](https://www.youtube.com/watch?v=zRDmP622NUg)
 
-```javascript
+```js
 socket.on("please_login", function() {
 	socket.emit('register_node', {
 		"node_id":"r1O92dtSz",
@@ -17,4 +17,16 @@ socket.on("please_login", function() {
 		"token":"301fd2e614a97927804613e73373ded2991661182107"
 	})
 })
+```
+
+## Cài đặt
+
+```
+npm install 
+```
+
+## Chạy chương trình
+
+```
+npm start
 ```
