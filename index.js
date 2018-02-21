@@ -17,15 +17,21 @@ socket.on("please_login", function() {
 	})
 })
 
-socket.on('accept', function(node_id, uuid) {
+socket.on('accept', function(res) {
+	var node_id = res.node_id
+	var uuid = res.uuid
 	console.log("Accept", node_id, "from", uuid)
 })
 
-socket.on('error', function(node_id, error) {
+socket.on('error', function(res) {
+	var node_id = res.node_id
+	var error = res.error
 	console.error(node_id, error)
 })
 
-socket.on('data', function(node_id, data) {
+socket.on('data', function(res) {
+	var node_id = res.node_id
+	var data = res_data
 	console.log(node_id, data)
 })
 
